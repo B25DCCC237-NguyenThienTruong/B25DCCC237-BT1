@@ -1,10 +1,9 @@
 // Lấy nút Đổi màu nền
 let nutDoiMau = document.getElementById("doiMau");
 
-// Lấy đoạn văn lời chào
 let loiChao = document.getElementById("loiChao");
 
-// Tạo đối tượng Date
+// Ngày giờ
 let ngayGio = new Date();
 
 // Lấy giờ hiện tại
@@ -25,7 +24,7 @@ else {
 }
 
 
-// Đổi màu nền khi nhấn nút
+// Đổi màu 
 nutDoiMau.addEventListener("click", function() {
 
     let mauHienTai = document.body.style.backgroundColor;
