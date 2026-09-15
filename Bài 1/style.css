@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: lightgray;
+}
+
+/* Phần đầu trang */
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Menu */
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+/* Nội dung */
+main {
+    background-color: white;
+    width: 70%;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+main h2 {
+    color: blue;
+}
+
+#loiChao {
+    color: green;
+    font-size: 20px;
+}
+
+/* Nút */
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+/* Cuối trang */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
