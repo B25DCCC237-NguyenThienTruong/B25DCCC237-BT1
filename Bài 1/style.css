@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #fff3e0;
+}
+
+header {
+    background-color: #f57c00;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+main {
+    background-color: white;
+    width: 70%;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: left;
+}
+
+h2 {
+    color: #f57c00;
+}
+
+#loiChao {
+    color: #e65100;
+    font-size: 20px;
+}
+
+button {
+    background-color: #f57c00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

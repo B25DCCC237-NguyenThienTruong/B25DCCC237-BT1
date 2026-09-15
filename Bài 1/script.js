@@ -10,15 +10,18 @@ let ngayGio = new Date();
 // Lấy giờ hiện tại
 let gio = ngayGio.getHours();
 
-// Hiển thị lời chào theo buổi
+///Hiển thị lời chào theo buổi
 if (gio >= 5 && gio < 12) {
-    loiChao.innerText = "Chào buổi sáng! Chúc bạn một ngày tốt lành.";
+    loiChao.innerText = "Chào buổi sáng.";
 }
 else if (gio >= 12 && gio < 18) {
-    loiChao.innerText = "Chào buổi chiều! Chúc bạn học tập tốt.";
+    loiChao.innerText = "Chào buổi chiều.";
+}
+else if (gio >= 18 && gio < 23) {
+    loiChao.innerText = "Chào buổi tối.";
 }
 else {
-    loiChao.innerText = "Chào buổi tối! Chúc bạn có một buổi tối vui vẻ.";
+    loiChao.innerText = "Chào buổi đêm.";
 }
 
 
